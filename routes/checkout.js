@@ -18,7 +18,7 @@ router.post('/', (req, res, next) => {
     amount: '10.00', 
     paymentMethodNonce: nonceFromTheClient,
     options: {
-      
+
       // This option requests the funds from the transaction
       // once it has been authorized successfully
       submitForSettlement: true
